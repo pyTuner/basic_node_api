@@ -1,0 +1,26 @@
+{
+  "name": "basics_node_api",
+  "version": "1.0.0",
+  "description": "basic node apis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pyTuner/basic_node_api.git"
+  },
+  "keywords": [
+    "node",
+    "api"
+  ],
+  "author": "tejas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pyTuner/basic_node_api/issues"
+  },
+  "homepage": "https://github.com/pyTuner/basic_node_api#readme",
+  "dependencies": {
+    "mongodb": "^5.7.0"
+  }
+}
