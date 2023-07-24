@@ -41,7 +41,7 @@ app.put('/:title', async (req, res) => {
 
 app.delete('/:id', async (req, res) => {
     let db = await dbConnect();
-    let data = await db.deleteOne({_id: new mongodb.ObjectId(req.params.id)});
+    let data = await db.deleteOne({_id: new mongodb.ObjectId(req.params.id)});   //'_id' is an objectID, need to access it using instance of 'mongodb.ObjectId()'
     
     res.send(data);
     // res.end()
