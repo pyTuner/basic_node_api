@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/pyTuner/basic_node_api#readme",
   "dependencies": {
+    "express": "^4.18.2",
     "mongodb": "^5.7.0"
   }
 }
